@@ -5,7 +5,7 @@ import * as d3 from 'd3';
 const Weather = () => 
 {
     const  [weatherData, setWeatherData] = useState(null);
-    const apiKey = '584a364bfc4f7b5d37f5b56e8e48f666' // API Key from OpenWeatherMap
+    const apiKey = 'YOUR API KEY' // API Key from OpenWeatherMap
     const city = 'Indianapolis' // City to get weather data from
     const chartRef = useRef();
 
